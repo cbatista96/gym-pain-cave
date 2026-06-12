@@ -32,7 +32,7 @@
     "ctaPrimary": "Empieza hoy",
     "ctaSecondary": "Ver membresías",
     "scroll": "Desliza",
-    "since": "Desde 2015"
+    "since": "Desde 2026"
   },
   "marquee": {
     "item1": "Sin dolor no hay gloria",
@@ -53,7 +53,7 @@
     "kicker": "Por qué Pain Cave",
     "title": "Esto no es un gimnasio.",
     "titleAccent": "Es un estilo de vida.",
-    "description": "Pain Cave nació en 2015 con una idea simple: crear el lugar donde la gente que va en serio pueda entrenar en serio. Sin distracciones, sin postureo. Equipamiento de competición, entrenadores que han pisado tarima y una comunidad que te empuja cuando tú ya no puedes.",
+    "description": "Pain Cave nació en 2026 con una idea simple: crear el lugar donde la gente que va en serio pueda entrenar en serio. Sin distracciones, sin postureo. Equipamiento de competición, entrenadores que han pisado tarima y una comunidad que te empuja cuando tú ya no puedes.",
     "feature1Title": "Equipo de competición",
     "feature1Text": "Barras calibradas, discos de competición, plataformas de halterofilia y máquinas de última generación.",
     "feature2Title": "Acceso 24/7",
@@ -212,17 +212,17 @@
       "t1": {
         "quote": "Perdí 18 kilos en 8 meses y gané una confianza que no tenía desde los 20. Este sitio te cambia la vida si te dejas.",
         "name": "Andrés M.",
-        "detail": "Miembro desde 2023"
+        "detail": "Miembro fundador"
       },
       "t2": {
         "quote": "Vengo de gimnasios 'premium' con spa y zumos détox. Aquí hay tiza, hierro y gente que entrena de verdad. No vuelvo atrás.",
         "name": "Laura G.",
-        "detail": "Miembro desde 2022"
+        "detail": "Plan Cave Beast"
       },
       "t3": {
         "quote": "Los coaches me prepararon para mi primera competición de powerlifting. Subí a tarima y gané mi categoría. Eternamente agradecido.",
         "name": "Kevin R.",
-        "detail": "Miembro desde 2021"
+        "detail": "Competidor de powerlifting"
       }
     }
   },
@@ -330,7 +330,7 @@
     "cancelCta": "Volver a membresías"
   },
   "footer": {
-    "tagline": "El gimnasio para los que van en serio. Hierro, disciplina y comunidad desde 2015.",
+    "tagline": "El gimnasio para los que van en serio. Hierro, disciplina y comunidad desde 2026.",
     "navTitle": "Navegación",
     "contactTitle": "Contacto",
     "hoursTitle": "Horario",

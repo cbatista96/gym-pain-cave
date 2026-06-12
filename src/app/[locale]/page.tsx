@@ -162,14 +162,14 @@ export default async function HomePage({
               ))}
             </div>
           </div>
-          <Reveal delay={150} direction="right" className="relative">
+          <Reveal delay={150} direction="right" spotlight className="relative">
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
                 src={ABOUT_IMAGE}
                 alt={tAbout("title")}
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover grayscale"
+                className="spotlight-color object-cover grayscale transition-all duration-500"
               />
               <div className="absolute inset-0 ring-8 ring-coal ring-inset" />
             </div>

@@ -13,7 +13,7 @@ export default async function TrainerCard({ trainerKey, index = 0 }: TrainerCard
   const data = TRAINERS[trainerKey];
 
   return (
-    <Reveal delay={index * 80} direction={index % 2 === 0 ? "left" : "right"}>
+    <Reveal delay={index * 80} direction={index % 2 === 0 ? "left" : "right"} spotlight>
       <article className="group relative overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
         <div className="relative aspect-[3/4] overflow-hidden">
           <Image
@@ -21,7 +21,7 @@ export default async function TrainerCard({ trainerKey, index = 0 }: TrainerCard
             alt={t(`items.${trainerKey}.name`)}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            className="object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+            className="spotlight-color object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-coal via-transparent to-transparent" />
           <span className="font-display absolute right-0 bottom-0 bg-blood px-3 py-1.5 text-xs tracking-widest text-bone uppercase">

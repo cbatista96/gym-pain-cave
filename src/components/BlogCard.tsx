@@ -18,6 +18,7 @@ export default async function BlogCard({ slug, index = 0 }: BlogCardProps) {
     <Reveal
       delay={index * 80}
       direction={index % 2 === 0 ? "left" : "right"}
+      spotlight
       className="h-full"
     >
       <article className="group flex h-full flex-col overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
@@ -27,7 +28,7 @@ export default async function BlogCard({ slug, index = 0 }: BlogCardProps) {
             alt={t(`posts.${slug}.title`)}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+            className="spotlight-color object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
           />
           <span className="font-display absolute top-4 left-4 bg-blood px-3 py-1 text-xs tracking-widest text-bone uppercase">
             {t(`posts.${slug}.category`)}

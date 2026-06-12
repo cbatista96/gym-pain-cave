@@ -10,6 +10,12 @@ type RevealProps = {
   direction?: "up" | "left" | "right";
   /** If true, animate only the first time instead of every time it re-enters the viewport. */
   once?: boolean;
+  /**
+   * On touch/mobile devices, adds .is-centered while the element crosses the
+   * middle band of the viewport (used to colorize grayscale photos while
+   * scrolling, mirroring the desktop hover effect).
+   */
+  spotlight?: boolean;
 };
 
 export default function Reveal({
@@ -17,7 +23,8 @@ export default function Reveal({
   delay = 0,
   className,
   direction = "up",
-  once = false
+  once = false,
+  spotlight = false
 }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -39,6 +46,23 @@ export default function Reveal({
     observer.observe(el);
     return () => observer.disconnect();
   }, [once]);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !spotlight) return;
+    // Hover devices already colorize on mouseover; the media check runs per
+    // event so rotation/resize is handled without re-mounting.
+    const touchish = window.matchMedia("(hover: none), (max-width: 767px)");
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        el.classList.toggle("is-centered", touchish.matches && entry.isIntersecting);
+      },
+      // Fires only while the element overlaps the middle ~30% of the viewport.
+      { rootMargin: "-35% 0px -35% 0px", threshold: 0 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [spotlight]);
 
   const directionClass =
     direction === "left" ? "reveal-left" : direction === "right" ? "reveal-right" : "";

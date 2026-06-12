@@ -175,6 +175,14 @@ body {
   }
 }
 
+/* Mobile scroll spotlight: while a card crosses the center of the viewport
+   (Reveal adds .is-centered), its grayscale photo regains full color —
+   the touch equivalent of the desktop hover effect. */
+.is-centered .spotlight-color {
+  filter: none;
+  transform: scale(1.05);
+}
+
 /* Red underline slash for headings */
 .slash::before {
   content: "";

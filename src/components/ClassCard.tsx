@@ -17,6 +17,7 @@ export default async function ClassCard({ classKey, index = 0, detailed = false 
     <Reveal
       delay={index * 80}
       direction={index % 2 === 0 ? "left" : "right"}
+      spotlight
       className="group relative"
     >
       <article className="relative flex h-full flex-col overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
@@ -26,7 +27,7 @@ export default async function ClassCard({ classKey, index = 0, detailed = false 
             alt={t(`items.${classKey}.name`)}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
+            className="spotlight-color object-cover grayscale transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-coal via-coal/20 to-transparent" />
           <span className="font-display absolute top-4 left-4 bg-blood px-3 py-1 text-sm tracking-wider text-bone uppercase">

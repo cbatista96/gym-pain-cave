@@ -32,7 +32,7 @@
     "ctaPrimary": "Start today",
     "ctaSecondary": "See memberships",
     "scroll": "Scroll",
-    "since": "Since 2015"
+    "since": "Since 2026"
   },
   "marquee": {
     "item1": "No pain no gain",
@@ -53,7 +53,7 @@
     "kicker": "Why Pain Cave",
     "title": "This is not a gym.",
     "titleAccent": "It's a lifestyle.",
-    "description": "Pain Cave was born in 2015 with one simple idea: build the place where serious people can train seriously. No distractions, no posing. Competition-grade equipment, coaches who have stood on the platform, and a community that pushes you when you can't push yourself.",
+    "description": "Pain Cave was born in 2026 with one simple idea: build the place where serious people can train seriously. No distractions, no posing. Competition-grade equipment, coaches who have stood on the platform, and a community that pushes you when you can't push yourself.",
     "feature1Title": "Competition equipment",
     "feature1Text": "Calibrated bars, competition plates, weightlifting platforms and state-of-the-art machines.",
     "feature2Title": "24/7 access",
@@ -212,17 +212,17 @@
       "t1": {
         "quote": "I lost 40 pounds in 8 months and gained a confidence I hadn't felt since my twenties. This place changes your life if you let it.",
         "name": "Andrés M.",
-        "detail": "Member since 2023"
+        "detail": "Founding member"
       },
       "t2": {
         "quote": "I came from 'premium' gyms with spas and detox juices. Here there's chalk, iron and people who actually train. I'm never going back.",
         "name": "Laura G.",
-        "detail": "Member since 2022"
+        "detail": "Cave Beast member"
       },
       "t3": {
         "quote": "The coaches got me ready for my first powerlifting meet. I stepped on the platform and won my category. Forever grateful.",
         "name": "Kevin R.",
-        "detail": "Member since 2021"
+        "detail": "Powerlifting competitor"
       }
     }
   },
@@ -330,7 +330,7 @@
     "cancelCta": "Back to membership"
   },
   "footer": {
-    "tagline": "The gym for those who mean it. Iron, discipline and community since 2015.",
+    "tagline": "The gym for those who mean it. Iron, discipline and community since 2026.",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
     "hoursTitle": "Hours",
