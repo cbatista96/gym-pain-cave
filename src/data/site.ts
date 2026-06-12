@@ -74,7 +74,7 @@ export const TRAINERS: Record<TrainerKey, { image: string; years: number }> = {
   },
   dmitri: {
     image:
-      "https://images.unsplash.com/photo-1583468982228-19f19164aee2?q=80&w=1200&auto=format&fit=crop",
+      "https://images.pexels.com/photos/10006587/pexels-photo-10006587.jpeg?auto=compress&cs=tinysrgb&w=1200",
     years: 15
   },
   sofia: {

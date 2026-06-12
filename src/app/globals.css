@@ -66,6 +66,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Side-slide reveals translate elements beyond the viewport edge;
+   clip the horizontal overflow so the page never scrolls sideways. */
+html,
+body {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
 body {
   background-color: var(--color-coal);
   color: var(--color-bone);
@@ -136,10 +144,10 @@ body {
     transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
   transition-delay: var(--reveal-delay, 0ms);
 }
-.reveal.reveal-left {
+.reveal.reveal-left:not(.is-visible) {
   transform: translateX(-56px);
 }
-.reveal.reveal-right {
+.reveal.reveal-right:not(.is-visible) {
   transform: translateX(56px);
 }
 .reveal.is-visible {
@@ -152,10 +160,10 @@ body {
   transition-duration: 0.3s;
 }
 @media (max-width: 640px) {
-  .reveal.reveal-left {
+  .reveal.reveal-left:not(.is-visible) {
     transform: translateX(-40px);
   }
-  .reveal.reveal-right {
+  .reveal.reveal-right:not(.is-visible) {
     transform: translateX(40px);
   }
 }
