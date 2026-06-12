@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import LogoBadge from "./LogoBadge";
 import NewsletterForm from "./NewsletterForm";
 import SocialLinks from "./SocialLinks";
 
@@ -23,8 +23,15 @@ export default async function Footer() {
     <footer className="relative border-t-4 border-blood bg-ash">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div>
-          <Link href="/" aria-label={tNav("home")} className="inline-block text-bone transition-colors hover:text-blood">
-            <LogoBadge className="w-44" slogan={tCommon("sloganShort")} />
+          <Link href="/" aria-label={tNav("home")} className="inline-block">
+            {/* mix-blend-screen drops the artwork's black background into the dark footer */}
+            <Image
+              src="/logo.png"
+              alt={`${tCommon("brand")} — ${tCommon("sloganShort")}`}
+              width={1024}
+              height={1536}
+              className="w-44 mix-blend-screen transition-transform duration-300 hover:scale-105"
+            />
           </Link>
           <p className="mt-6 text-sm leading-relaxed text-bone-dim">{t("tagline")}</p>
           <div className="mt-6">
