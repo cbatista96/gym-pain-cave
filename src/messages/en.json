@@ -1,0 +1,357 @@
+{
+  "common": {
+    "brand": "Pain Cave",
+    "slogan": "Be STRONGER than your EXCUSES",
+    "sloganShort": "be STRONGER than your EXCUSES",
+    "openNow": "Open 24/7",
+    "joinNow": "Join now",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "loading": "Loading…",
+    "perMonth": "/mo",
+    "popular": "Most popular"
+  },
+  "nav": {
+    "home": "Home",
+    "classes": "Classes",
+    "trainers": "Trainers",
+    "membership": "Membership",
+    "blog": "Blog",
+    "contact": "Contact",
+    "join": "Join",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLocale": "Switch language"
+  },
+  "hero": {
+    "kicker": "Gym · Strength · Community",
+    "title1": "BE STRONGER",
+    "title2": "THAN YOUR",
+    "title3": "EXCUSES",
+    "subtitle": "Welcome to the cave. No shortcuts, no selfie mirrors, no excuses. Just iron, sweat and results that speak for themselves.",
+    "ctaPrimary": "Start today",
+    "ctaSecondary": "See memberships",
+    "scroll": "Scroll",
+    "since": "Since 2015"
+  },
+  "marquee": {
+    "item1": "No pain no gain",
+    "item2": "Train hard",
+    "item3": "Open 24/7",
+    "item4": "Be stronger than your excuses",
+    "item5": "Iron and discipline",
+    "item6": "No shortcuts"
+  },
+  "stats": {
+    "title": "The cave in numbers",
+    "members": "Active members",
+    "trainers": "Elite trainers",
+    "classes": "Weekly classes",
+    "sqm": "m² of pure iron"
+  },
+  "about": {
+    "kicker": "Why Pain Cave",
+    "title": "This is not a gym.",
+    "titleAccent": "It's a lifestyle.",
+    "description": "Pain Cave was born in 2015 with one simple idea: build the place where serious people can train seriously. No distractions, no posing. Competition-grade equipment, coaches who have stood on the platform, and a community that pushes you when you can't push yourself.",
+    "feature1Title": "Competition equipment",
+    "feature1Text": "Calibrated bars, competition plates, weightlifting platforms and state-of-the-art machines.",
+    "feature2Title": "24/7 access",
+    "feature2Text": "Your cave never closes. Train at 5 AM or midnight — whenever your discipline calls.",
+    "feature3Title": "Elite coaches",
+    "feature3Text": "Certified competitive athletes who design your plan and push you through every last rep.",
+    "feature4Title": "Iron community",
+    "feature4Text": "Nobody trains alone here. The cave is a family that celebrates every PR with you."
+  },
+  "classes": {
+    "kicker": "Programs",
+    "title": "Choose your battlefield",
+    "subtitle": "Six programs built to take you from point A to point beast. All levels, zero excuses.",
+    "pageTitle": "Our classes",
+    "pageSubtitle": "Every class is designed and led by certified coaches. Book your spot at the front desk or in the app.",
+    "schedule": "Schedule",
+    "intensity": "Intensity",
+    "duration": "Duration",
+    "minutes": "{count} min",
+    "levels": { "all": "All levels", "intermediate": "Intermediate", "advanced": "Advanced" },
+    "items": {
+      "strength": {
+        "name": "Strength & Powerlifting",
+        "tagline": "Squat. Bench. Deadlift.",
+        "description": "Pure strength programming built around the big three. Technique, progression and a competition platform to forge a foundation of steel.",
+        "schedule": "Mon · Wed · Fri — 6:00, 18:00"
+      },
+      "crossTraining": {
+        "name": "Cross Training",
+        "tagline": "Functional. Brutal. Effective.",
+        "description": "WODs blending weightlifting, gymnastics and metabolic conditioning. The hardest (and most addictive) hour of your day.",
+        "schedule": "Mon to Sat — 7:00, 12:00, 19:00"
+      },
+      "boxing": {
+        "name": "Boxing",
+        "tagline": "Fists, technique and heart.",
+        "description": "Heavy bag, pads and technical sparring. Learn to strike, to move, and to burn off stress round after round.",
+        "schedule": "Tue · Thu — 17:00, 20:00"
+      },
+      "hiit": {
+        "name": "HIIT Inferno",
+        "tagline": "45 minutes. Zero mercy.",
+        "description": "High-intensity intervals that fire up your metabolism for hours. Burn, sweat, repeat.",
+        "schedule": "Mon to Fri — 6:30, 13:00, 18:30"
+      },
+      "spinning": {
+        "name": "Spinning Cave",
+        "tagline": "Ride in the dark.",
+        "description": "Indoor cycling with combat lights and pounding music. Brutal cardio with zero joint impact.",
+        "schedule": "Mon · Wed · Fri — 8:00, 19:30"
+      },
+      "mobility": {
+        "name": "Mobility & Recovery",
+        "tagline": "Train hard. Recover harder.",
+        "description": "Active stretching, foam rolling and mobility work so your body can survive years of war in the cave.",
+        "schedule": "Tue · Thu · Sun — 9:00, 20:30"
+      }
+    }
+  },
+  "trainers": {
+    "kicker": "The team",
+    "title": "Meet your executioners",
+    "subtitle": "Certified athletes who have competed, bled and won. Now their mission is to transform you.",
+    "pageTitle": "Our trainers",
+    "pageSubtitle": "Each one is a specialist in their field with international certifications. Book a free assessment session with any of them.",
+    "experience": "{years} years of experience",
+    "items": {
+      "marcus": {
+        "name": "Marcus \"The Rock\" Delgado",
+        "role": "Head Coach · Powerlifting",
+        "bio": "National powerlifting champion with elite totals. Marcus turns beginners into serious lifters with a mix of science and tough love."
+      },
+      "valeria": {
+        "name": "Valeria Cruz",
+        "role": "Cross Training & Weightlifting",
+        "bio": "Former Olympic weightlifter. Obsessed with perfect technique: with her, every kilo is earned, never stolen."
+      },
+      "dmitri": {
+        "name": "Dmitri Volkov",
+        "role": "Boxing & Striking",
+        "bio": "Over 40 amateur fights and coach of regional champions. He'll teach you that boxing is chess with punches."
+      },
+      "sofia": {
+        "name": "Sofía Reyes",
+        "role": "HIIT & Conditioning",
+        "bio": "Exercise physiologist and queen of metabolic conditioning. Her classes have a waiting list and a leg-breaking reputation."
+      }
+    }
+  },
+  "pricing": {
+    "kicker": "Membership",
+    "title": "Invest in your strongest self",
+    "subtitle": "No contracts. No fine print. Cancel anytime — though we know you won't want to.",
+    "pageTitle": "Membership plans",
+    "pageSubtitle": "Every plan includes access to the weights floor, locker rooms with showers and the Pain Cave app. Choose your level of commitment.",
+    "ctaJoin": "Choose plan",
+    "processing": "Processing…",
+    "checkoutError": "Could not start checkout. Please try again or contact us.",
+    "guarantee": "14-day guarantee: if it's not for you, we'll refund your money.",
+    "secure": "100% secure payment with Stripe",
+    "faqTitle": "Frequently asked questions",
+    "faq1q": "Is there a sign-up fee or contract?",
+    "faq1a": "No. You pay month to month and can cancel your subscription anytime at the front desk or by email.",
+    "faq2q": "Can I freeze my membership?",
+    "faq2a": "Yes, up to 2 months per year for injury or travel. Drop us a line and we'll sort it out on the spot.",
+    "faq3q": "Do you offer day passes?",
+    "faq3a": "Yes — $10 gets you a full day of training. If you join that same week, we deduct it from your first month.",
+    "faq4q": "Which payment methods do you accept?",
+    "faq4a": "Credit and debit cards via Stripe. Billing is automatic each month and you receive an invoice by email.",
+    "plans": {
+      "basic": {
+        "name": "Cave Basic",
+        "price": "29",
+        "description": "Start chipping away at the stone.",
+        "features": [
+          "Access to weights and cardio floor",
+          "Hours from 6:00 to 22:00",
+          "App with basic routines",
+          "Locker rooms and showers",
+          "1 group class per week"
+        ]
+      },
+      "beast": {
+        "name": "Cave Beast",
+        "price": "59",
+        "description": "The plan for those who mean it.",
+        "features": [
+          "Everything in Cave Basic",
+          "24/7 access with digital key",
+          "Unlimited group classes",
+          "1 monthly session with a coach",
+          "Quarterly nutrition plan",
+          "Access to recovery zone"
+        ]
+      },
+      "elite": {
+        "name": "Cave Elite",
+        "price": "99",
+        "description": "Pro-athlete treatment.",
+        "features": [
+          "Everything in Cave Beast",
+          "4 personal sessions per month",
+          "Monthly nutrition plan",
+          "Body composition analysis",
+          "Discounted physiotherapy",
+          "Bring a friend twice a month",
+          "Official Pain Cave t-shirt"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "kicker": "Testimonials",
+    "title": "Their words, not ours",
+    "items": {
+      "t1": {
+        "quote": "I lost 40 pounds in 8 months and gained a confidence I hadn't felt since my twenties. This place changes your life if you let it.",
+        "name": "Andrés M.",
+        "detail": "Member since 2023"
+      },
+      "t2": {
+        "quote": "I came from 'premium' gyms with spas and detox juices. Here there's chalk, iron and people who actually train. I'm never going back.",
+        "name": "Laura G.",
+        "detail": "Member since 2022"
+      },
+      "t3": {
+        "quote": "The coaches got me ready for my first powerlifting meet. I stepped on the platform and won my category. Forever grateful.",
+        "name": "Kevin R.",
+        "detail": "Member since 2021"
+      }
+    }
+  },
+  "cta": {
+    "title1": "Ready to enter",
+    "title2": "the cave?",
+    "subtitle": "Your first session is free. Come meet the team and find out why our members never leave.",
+    "button": "Claim your free session",
+    "note": "No card. No commitment. Just bring the will."
+  },
+  "blog": {
+    "kicker": "The cave blog",
+    "title": "Knowledge that lifts",
+    "subtitle": "Training, nutrition and mindset. Written by our coaches — no fluff, no magic shortcuts.",
+    "readMore": "Read article",
+    "backToBlog": "Back to blog",
+    "minRead": "{count} min read",
+    "by": "By {name}",
+    "relatedTitle": "Keep reading",
+    "posts": {
+      "progressive-overload": {
+        "title": "Progressive overload: the only 'secret formula' that works",
+        "excerpt": "Forget influencer magic routines. If you're not progressing, you're almost certainly ignoring this principle.",
+        "category": "Training",
+        "content": [
+          "Every week someone walks into the cave asking for the perfect routine. The answer is always the same: the perfect routine is the one that lets you apply progressive overload consistently for months and years.",
+          "Progressive overload is the simplest and most ignored principle in strength training: for your body to adapt, the stimulus must increase over time. More weight, more reps, more sets, better technique or less rest. If everything stays the same for months, your body has no reason to change.",
+          "How do you apply it in practice? Keep a log. Yes, that boring and that effective. Write down every set, every weight and every rep. Your goal in each session is to beat — even minimally — what you did in the previous one: one more rep with the same weight, or the same reps with 5 lb more.",
+          "The most common mistake is rushing: jumping 20 lb at once, failing, getting frustrated and switching routines. Strength is built with a bricklayer's patience, brick by brick. The strongest lifters in the cave have spent years stacking small increments anyone would consider insignificant.",
+          "Start today: pick 4-6 basic exercises, write down your current numbers and commit to improving them by 1% each week. In a year you'll have progressed more than in your entire life of random routines."
+        ]
+      },
+      "protein-myths": {
+        "title": "5 protein myths holding you back",
+        "excerpt": "It doesn't wreck your kidneys and you don't need a shake at exactly 30 minutes. We dismantle the bro-science with evidence.",
+        "category": "Nutrition",
+        "content": [
+          "Protein is probably the nutrient with the most nonsense spoken about it in any gym. Let's dismantle the five myths we hear most often in the cave.",
+          "Myth 1: 'Protein damages your kidneys'. In healthy people, there is no evidence that high protein intake causes kidney damage. The studies that spawned this myth were done on patients with pre-existing kidney disease. If your kidneys work fine, training hard and eating 1 g per pound of body weight won't break them.",
+          "Myth 2: 'You only absorb 30 g per meal'. Your body absorbs virtually all the protein you eat; what varies is the speed. To maximize protein synthesis it helps to spread it across 3-5 meals, but if you eat 60 g in one sitting some day, nothing gets 'wasted'.",
+          "Myth 3: 'The anabolic window lasts 30 minutes'. The famous post-workout window exists, but it lasts hours, not minutes. What matters is your total daily intake. If you ate protein 2-3 hours before training, there's no rush for the immediate shake.",
+          "Myth 4: 'Plant protein is useless'. Plant proteins can be perfectly valid by combining sources (legumes + grains) and adjusting total intake slightly upward. Thousands of vegan athletes prove it.",
+          "Myth 5: 'More protein = more muscle'. Above roughly 1 g per pound in a caloric surplus, extra protein doesn't speed up muscle gain. Muscle is built with well-programmed training, enough calories and years of consistency. Protein is the material, not the builder."
+        ]
+      },
+      "first-month-guide": {
+        "title": "Your first month at the gym: a survival guide",
+        "excerpt": "Everything we wish we'd known on day one: what to do, what to avoid, and how not to quit in week 3.",
+        "category": "Beginners",
+        "content": [
+          "Half the people who join a gym in January quit before March. Not for lack of motivation, but for lack of a plan. This is the guide we hand every new member of the cave.",
+          "Weeks 1-2: learn the patterns, not the weights. Your only goal is mastering the basic movements: squat, hip hinge, push, pull. Use weights that feel ridiculously light. Your nervous system is learning a new language — don't yell at it.",
+          "Weeks 3-4: build the habit before the intensity. Three days a week, same days and same time if you can. Mediocre consistency beats intermittent perfection every time. A 60% workout you actually do is worth infinitely more than the perfect workout you skip.",
+          "Muscle soreness is normal; joint pain is not. Learn to tell the diffuse next-day muscle ache (fine) from sharp, localized pain in a joint (not fine — stop and ask a coach).",
+          "Don't compare your chapter 1 to someone else's chapter 20. The guy squatting 400 lb also started with an empty bar. Nobody in the cave laughs at beginners; we all remember our first day.",
+          "And the most important advice: ask for help. That's what the coaches are for. A free initial assessment session saves you months of going in circles and protects you from pointless injuries."
+        ]
+      },
+      "sleep-recovery": {
+        "title": "Sleep more, lift more: the science of recovery",
+        "excerpt": "You train hard but sleep 5 hours. Here's why sleep is the legal steroid you're wasting.",
+        "category": "Recovery",
+        "content": [
+          "You can have the best routine and the best diet in the world: if you sleep badly, you're leaving half your results on the table. Muscle isn't built in the gym — it's built while you sleep.",
+          "During deep sleep your body releases most of the day's growth hormone, repairs the muscle tissue damaged by training and consolidates nervous system adaptations. Chronically sleeping less than 6 hours reduces protein synthesis, raises cortisol and tanks testosterone.",
+          "The data is scary: studies on athletes show that sleeping 5 hours instead of 8 cuts testosterone levels by 10-15% in just one week. Another classic study found that athletes sleeping under 8 hours had 1.7 times the injury risk.",
+          "How to improve your sleep tonight? Fixed schedule (same bedtime and wake time, weekends included), a cold dark room, no screens 60 minutes before bed, and caffeine only before 2 PM. It sounds basic because it is; the hard part is sticking to it.",
+          "If you train at night in the cave, prioritize a dinner with carbs and protein, and dim the lights when you get home. Your 9 PM session shouldn't cost you sleep if you manage the following hour well.",
+          "Treat sleep like another workout: schedule it, protect it and measure it. It's free, it's legal and it's more anabolic than any supplement on the shelf."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Come see the cave",
+    "subtitle": "Drop by, write to us or call. The first session is on us.",
+    "formTitle": "Write to us",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us your goal…",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Message received! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again.",
+    "infoTitle": "Info",
+    "address": "Calle del Hierro 24, Polígono Norte",
+    "city": "28000 Madrid, Spain",
+    "phone": "+34 600 123 456",
+    "emailAddress": "hola@paincave.fit",
+    "hoursTitle": "Hours",
+    "hoursWeek": "Monday to Friday: 24 hours",
+    "hoursWeekend": "Saturday & Sunday: 7:00 – 22:00",
+    "hoursNote": "Beast and Elite members: 24/7 access every day"
+  },
+  "checkout": {
+    "successTitle": "Welcome to the cave!",
+    "successText": "Your payment was processed successfully. Check your email: we've sent your confirmation and the steps to activate your digital key.",
+    "successCta": "Back to home",
+    "cancelTitle": "Payment cancelled",
+    "cancelText": "No charge was made. Your plan will be waiting when you're ready — excuses don't lift weights.",
+    "cancelCta": "Back to membership"
+  },
+  "footer": {
+    "tagline": "The gym for those who mean it. Iron, discipline and community since 2015.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "newsletterTitle": "Join the list",
+    "newsletterText": "Training tips and exclusive offers. No spam.",
+    "newsletterPlaceholder": "Your email",
+    "newsletterButton": "Subscribe",
+    "newsletterSuccess": "Subscribed! Check your inbox.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "meta": {
+    "home": {
+      "title": "Pain Cave — Be stronger than your excuses",
+      "description": "Strength and conditioning gym open 24/7. Powerlifting, cross training, boxing and HIIT with elite coaches. Your first session is free."
+    },
+    "classes": { "title": "Classes — Pain Cave", "description": "Strength, cross training, boxing, HIIT, spinning and mobility. Find your program at Pain Cave." },
+    "trainers": { "title": "Trainers — Pain Cave", "description": "Meet Pain Cave's elite coaching team: certified athletes in powerlifting, weightlifting, boxing and conditioning." },
+    "membership": { "title": "Membership — Pain Cave", "description": "Plans from $29/mo with no contract. 24/7 access, unlimited classes and personal training. Pay securely with Stripe." },
+    "blog": { "title": "Blog — Pain Cave", "description": "Training, nutrition and mindset with no fluff. Written by Pain Cave coaches." },
+    "contact": { "title": "Contact — Pain Cave", "description": "Visit us, write or call. Your first session at Pain Cave is free." }
+  }
+}

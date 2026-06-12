@@ -1,0 +1,357 @@
+{
+  "common": {
+    "brand": "Pain Cave",
+    "slogan": "Sé MÁS FUERTE que tus EXCUSAS",
+    "sloganShort": "be STRONGER than your EXCUSES",
+    "openNow": "Abierto 24/7",
+    "joinNow": "Únete ahora",
+    "learnMore": "Saber más",
+    "viewAll": "Ver todo",
+    "loading": "Cargando…",
+    "perMonth": "/mes",
+    "popular": "Más popular"
+  },
+  "nav": {
+    "home": "Inicio",
+    "classes": "Clases",
+    "trainers": "Entrenadores",
+    "membership": "Membresías",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "join": "Únete",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchLocale": "Cambiar idioma"
+  },
+  "hero": {
+    "kicker": "Gimnasio · Fuerza · Comunidad",
+    "title1": "SÉ MÁS FUERTE",
+    "title2": "QUE TUS",
+    "title3": "EXCUSAS",
+    "subtitle": "Bienvenido a la cueva. Aquí no hay atajos, no hay espejos para selfies, no hay pretextos. Solo hierro, sudor y resultados que hablan por ti.",
+    "ctaPrimary": "Empieza hoy",
+    "ctaSecondary": "Ver membresías",
+    "scroll": "Desliza",
+    "since": "Desde 2015"
+  },
+  "marquee": {
+    "item1": "Sin dolor no hay gloria",
+    "item2": "Entrena duro",
+    "item3": "Abierto 24/7",
+    "item4": "Sé más fuerte que tus excusas",
+    "item5": "Hierro y disciplina",
+    "item6": "Sin atajos"
+  },
+  "stats": {
+    "title": "La cueva en números",
+    "members": "Miembros activos",
+    "trainers": "Entrenadores élite",
+    "classes": "Clases semanales",
+    "sqm": "m² de puro hierro"
+  },
+  "about": {
+    "kicker": "Por qué Pain Cave",
+    "title": "Esto no es un gimnasio.",
+    "titleAccent": "Es un estilo de vida.",
+    "description": "Pain Cave nació en 2015 con una idea simple: crear el lugar donde la gente que va en serio pueda entrenar en serio. Sin distracciones, sin postureo. Equipamiento de competición, entrenadores que han pisado tarima y una comunidad que te empuja cuando tú ya no puedes.",
+    "feature1Title": "Equipo de competición",
+    "feature1Text": "Barras calibradas, discos de competición, plataformas de halterofilia y máquinas de última generación.",
+    "feature2Title": "Acceso 24/7",
+    "feature2Text": "Tu cueva nunca cierra. Entrena a las 5 AM o a medianoche, cuando tu disciplina lo pida.",
+    "feature3Title": "Entrenadores élite",
+    "feature3Text": "Atletas competitivos certificados que diseñan tu plan y te exigen hasta el último rep.",
+    "feature4Title": "Comunidad de hierro",
+    "feature4Text": "Aquí nadie entrena solo. La cueva es una familia que celebra cada PR contigo."
+  },
+  "classes": {
+    "kicker": "Programas",
+    "title": "Elige tu campo de batalla",
+    "subtitle": "Seis programas diseñados para llevarte del punto A al punto bestia. Todos los niveles, cero excusas.",
+    "pageTitle": "Nuestras clases",
+    "pageSubtitle": "Cada clase está diseñada y dirigida por entrenadores certificados. Reserva tu plaza desde recepción o la app.",
+    "schedule": "Horario",
+    "intensity": "Intensidad",
+    "duration": "Duración",
+    "minutes": "{count} min",
+    "levels": { "all": "Todos los niveles", "intermediate": "Intermedio", "advanced": "Avanzado" },
+    "items": {
+      "strength": {
+        "name": "Fuerza & Powerlifting",
+        "tagline": "Sentadilla. Banca. Peso muerto.",
+        "description": "Programa de fuerza pura centrado en los tres grandes. Técnica, progresión y tarima de competición para construir una base de acero.",
+        "schedule": "Lun · Mié · Vie — 6:00, 18:00"
+      },
+      "crossTraining": {
+        "name": "Cross Training",
+        "tagline": "Funcional. Brutal. Efectivo.",
+        "description": "WODs que combinan halterofilia, gimnásticos y acondicionamiento metabólico. La hora más dura (y adictiva) de tu día.",
+        "schedule": "Lun a Sáb — 7:00, 12:00, 19:00"
+      },
+      "boxing": {
+        "name": "Boxeo",
+        "tagline": "Puños, técnica y corazón.",
+        "description": "Saco pesado, manoplas y sparring técnico. Aprende a golpear, a moverte y a vaciar el estrés round tras round.",
+        "schedule": "Mar · Jue — 17:00, 20:00"
+      },
+      "hiit": {
+        "name": "HIIT Inferno",
+        "tagline": "45 minutos. Cero piedad.",
+        "description": "Intervalos de alta intensidad que disparan tu metabolismo durante horas. Quema, suda, repite.",
+        "schedule": "Lun a Vie — 6:30, 13:00, 18:30"
+      },
+      "spinning": {
+        "name": "Spinning Cave",
+        "tagline": "Pedalea en la oscuridad.",
+        "description": "Ciclo indoor con luces de combate y música que retumba. Cardio brutal sin impacto en las articulaciones.",
+        "schedule": "Lun · Mié · Vie — 8:00, 19:30"
+      },
+      "mobility": {
+        "name": "Movilidad & Recovery",
+        "tagline": "Entrena duro. Recupera mejor.",
+        "description": "Stretching activo, foam rolling y trabajo de movilidad para que tu cuerpo aguante años de guerra en la cueva.",
+        "schedule": "Mar · Jue · Dom — 9:00, 20:30"
+      }
+    }
+  },
+  "trainers": {
+    "kicker": "El equipo",
+    "title": "Conoce a tus verdugos",
+    "subtitle": "Atletas certificados que han competido, sangrado y ganado. Ahora su misión es transformarte.",
+    "pageTitle": "Nuestros entrenadores",
+    "pageSubtitle": "Cada uno es especialista en su campo y está certificado internacionalmente. Agenda una sesión de valoración gratuita con cualquiera de ellos.",
+    "experience": "{years} años de experiencia",
+    "items": {
+      "marcus": {
+        "name": "Marcus \"La Roca\" Delgado",
+        "role": "Head Coach · Powerlifting",
+        "bio": "Campeón nacional de powerlifting con totales de élite. Marcus convierte principiantes en levantadores serios con una mezcla de ciencia y mano dura."
+      },
+      "valeria": {
+        "name": "Valeria Cruz",
+        "role": "Cross Training & Halterofilia",
+        "bio": "Ex atleta olímpica de halterofilia. Obsesionada con la técnica perfecta: con ella cada kilo se gana, no se roba."
+      },
+      "dmitri": {
+        "name": "Dmitri Volkov",
+        "role": "Boxeo & Striking",
+        "bio": "Más de 40 peleas amateur y entrenador de campeones regionales. Te enseñará que el boxeo es ajedrez a puñetazos."
+      },
+      "sofia": {
+        "name": "Sofía Reyes",
+        "role": "HIIT & Acondicionamiento",
+        "bio": "Fisióloga del ejercicio y reina del acondicionamiento metabólico. Sus clases tienen lista de espera y reputación de rompepiernas."
+      }
+    }
+  },
+  "pricing": {
+    "kicker": "Membresías",
+    "title": "Invierte en tu mejor versión",
+    "subtitle": "Sin permanencia. Sin letra pequeña. Cancela cuando quieras — aunque sabemos que no querrás.",
+    "pageTitle": "Membresías",
+    "pageSubtitle": "Todos los planes incluyen acceso a la zona de pesas, vestuarios con duchas y la app de Pain Cave. Elige tu nivel de compromiso.",
+    "ctaJoin": "Elegir plan",
+    "processing": "Procesando…",
+    "checkoutError": "No se pudo iniciar el pago. Inténtalo de nuevo o contáctanos.",
+    "guarantee": "Garantía de 14 días: si no es para ti, te devolvemos el dinero.",
+    "secure": "Pago 100% seguro con Stripe",
+    "faqTitle": "Preguntas frecuentes",
+    "faq1q": "¿Hay matrícula o permanencia?",
+    "faq1a": "No. Pagas mes a mes y puedes cancelar tu suscripción cuando quieras desde recepción o por correo.",
+    "faq2q": "¿Puedo congelar mi membresía?",
+    "faq2a": "Sí, hasta 2 meses al año por lesión o viaje. Escríbenos y lo gestionamos en el momento.",
+    "faq3q": "¿Ofrecen pase de día?",
+    "faq3a": "Sí, por $10 puedes entrenar un día completo. Si te unes esa misma semana, te lo descontamos del primer mes.",
+    "faq4q": "¿Qué métodos de pago aceptan?",
+    "faq4a": "Tarjetas de crédito y débito a través de Stripe. El cobro es automático cada mes y recibes factura por correo.",
+    "plans": {
+      "basic": {
+        "name": "Cave Basic",
+        "price": "29",
+        "description": "Para empezar a picar piedra.",
+        "features": [
+          "Acceso a sala de pesas y cardio",
+          "Horario de 6:00 a 22:00",
+          "App con rutinas básicas",
+          "Vestuarios y duchas",
+          "1 clase grupal por semana"
+        ]
+      },
+      "beast": {
+        "name": "Cave Beast",
+        "price": "59",
+        "description": "El plan de los que van en serio.",
+        "features": [
+          "Todo lo de Cave Basic",
+          "Acceso 24/7 con llave digital",
+          "Clases grupales ilimitadas",
+          "1 sesión mensual con entrenador",
+          "Plan de nutrición trimestral",
+          "Acceso a zona de recovery"
+        ]
+      },
+      "elite": {
+        "name": "Cave Elite",
+        "price": "99",
+        "description": "Trato de atleta profesional.",
+        "features": [
+          "Todo lo de Cave Beast",
+          "4 sesiones personales al mes",
+          "Plan de nutrición mensual",
+          "Análisis de composición corporal",
+          "Fisioterapia con descuento",
+          "Invita a un amigo 2 veces al mes",
+          "Camiseta oficial Pain Cave"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "kicker": "Testimonios",
+    "title": "Lo dicen ellos, no nosotros",
+    "items": {
+      "t1": {
+        "quote": "Perdí 18 kilos en 8 meses y gané una confianza que no tenía desde los 20. Este sitio te cambia la vida si te dejas.",
+        "name": "Andrés M.",
+        "detail": "Miembro desde 2023"
+      },
+      "t2": {
+        "quote": "Vengo de gimnasios 'premium' con spa y zumos détox. Aquí hay tiza, hierro y gente que entrena de verdad. No vuelvo atrás.",
+        "name": "Laura G.",
+        "detail": "Miembro desde 2022"
+      },
+      "t3": {
+        "quote": "Los coaches me prepararon para mi primera competición de powerlifting. Subí a tarima y gané mi categoría. Eternamente agradecido.",
+        "name": "Kevin R.",
+        "detail": "Miembro desde 2021"
+      }
+    }
+  },
+  "cta": {
+    "title1": "¿Listo para entrar",
+    "title2": "a la cueva?",
+    "subtitle": "Tu primera sesión es gratis. Ven, conoce el equipo y descubre por qué nuestros miembros no se van.",
+    "button": "Reclama tu sesión gratis",
+    "note": "Sin tarjeta. Sin compromiso. Solo trae ganas."
+  },
+  "blog": {
+    "kicker": "El blog de la cueva",
+    "title": "Conocimiento que pesa",
+    "subtitle": "Entrenamiento, nutrición y mentalidad. Escrito por nuestros coaches, sin humo ni atajos mágicos.",
+    "readMore": "Leer artículo",
+    "backToBlog": "Volver al blog",
+    "minRead": "{count} min de lectura",
+    "by": "Por {name}",
+    "relatedTitle": "Sigue leyendo",
+    "posts": {
+      "progressive-overload": {
+        "title": "Sobrecarga progresiva: la única 'fórmula secreta' que funciona",
+        "excerpt": "Olvida las rutinas mágicas de influencers. Si no estás progresando, es casi seguro que estás ignorando este principio.",
+        "category": "Entrenamiento",
+        "content": [
+          "Cada semana llega alguien a la cueva preguntando por la rutina perfecta. La respuesta siempre es la misma: la rutina perfecta es la que te permite aplicar sobrecarga progresiva de forma sostenida durante meses y años.",
+          "La sobrecarga progresiva es el principio más simple y más ignorado del entrenamiento de fuerza: para que tu cuerpo se adapte, el estímulo debe aumentar con el tiempo. Más peso, más repeticiones, más series, mejor técnica o menos descanso. Si todo se mantiene igual durante meses, tu cuerpo no tiene ninguna razón para cambiar.",
+          "¿Cómo se aplica en la práctica? Lleva un registro. Sí, así de aburrido y así de efectivo. Apunta cada serie, cada peso y cada repetición. Tu objetivo en cada sesión es superar, aunque sea mínimamente, lo que hiciste la anterior: una repetición más con el mismo peso, o el mismo número de repeticiones con 2.5 kg más.",
+          "El error más común es querer correr: subir 10 kg de golpe, fallar, frustrarse y cambiar de rutina. La fuerza se construye con paciencia de albañil, ladrillo a ladrillo. Los levantadores más fuertes de la cueva llevan años sumando pequeños incrementos que cualquiera consideraría insignificantes.",
+          "Empieza hoy: elige 4-6 ejercicios básicos, anota tus números actuales y comprométete a mejorarlos un 1% cada semana. En un año habrás progresado más que en toda tu vida de rutinas aleatorias."
+        ]
+      },
+      "protein-myths": {
+        "title": "5 mitos sobre la proteína que te están frenando",
+        "excerpt": "Ni te destroza los riñones ni necesitas un batido a los 30 minutos exactos. Desmontamos la bro-ciencia con evidencia.",
+        "category": "Nutrición",
+        "content": [
+          "La proteína es probablemente el nutriente del que más tonterías se dicen en cualquier gimnasio. Vamos a desmontar los cinco mitos que más escuchamos en la cueva.",
+          "Mito 1: 'La proteína daña los riñones'. En personas sanas, no existe evidencia de que una ingesta alta de proteína cause daño renal. Los estudios que originaron este mito se hicieron en pacientes con enfermedad renal previa. Si tus riñones funcionan bien, entrenar duro y comer 2 g/kg de proteína no los va a estropear.",
+          "Mito 2: 'Solo absorbes 30 g por comida'. Tu cuerpo absorbe prácticamente toda la proteína que comes; otra cosa es la velocidad. Para maximizar la síntesis proteica conviene repartirla en 3-5 comidas, pero si un día metes 60 g en una sola comida, no se 'desperdicia' nada.",
+          "Mito 3: 'La ventana anabólica dura 30 minutos'. La famosa ventana post-entreno existe, pero dura horas, no minutos. Lo que importa es tu ingesta total del día. Si comiste proteína 2-3 horas antes de entrenar, no hay ninguna urgencia por el batido inmediato.",
+          "Mito 4: 'La proteína vegetal no sirve'. Las proteínas vegetales pueden ser perfectamente válidas combinando fuentes (legumbres + cereales) y ajustando la cantidad total ligeramente al alza. Miles de atletas veganos lo demuestran.",
+          "Mito 5: 'Más proteína = más músculo'. Por encima de ~2.2 g/kg en superávit calórico, más proteína no acelera la ganancia muscular. El músculo se construye con entrenamiento bien programado, calorías suficientes y años de constancia. La proteína es el material, no el constructor."
+        ]
+      },
+      "first-month-guide": {
+        "title": "Tu primer mes en el gimnasio: guía de supervivencia",
+        "excerpt": "Todo lo que nos hubiera gustado saber el primer día: qué hacer, qué evitar y cómo no abandonar en la semana 3.",
+        "category": "Principiantes",
+        "content": [
+          "El 50% de las personas que empiezan en un gimnasio en enero lo abandonan antes de marzo. No por falta de ganas, sino por falta de plan. Esta es la guía que le damos a cada nuevo miembro de la cueva.",
+          "Semana 1-2: aprende los patrones, no los pesos. Tu único objetivo es dominar los movimientos básicos: sentadilla, bisagra de cadera, empuje, tracción. Usa pesos que te parezcan ridículamente ligeros. Tu sistema nervioso está aprendiendo un idioma nuevo; no le grites.",
+          "Semana 3-4: establece el hábito antes que la intensidad. Tres días por semana, siempre los mismos días y a la misma hora si puedes. La constancia mediocre le gana siempre a la perfección intermitente. Un entrenamiento del 60% que sí haces vale infinitamente más que el entrenamiento perfecto que te saltas.",
+          "Las agujetas son normales; el dolor articular no. Aprende a distinguir la molestia muscular difusa del día siguiente (bien) del dolor agudo y localizado en una articulación (mal, para y pregunta a un coach).",
+          "No compares tu capítulo 1 con el capítulo 20 de otros. Ese que levanta 180 kg en sentadilla también empezó con la barra vacía. En la cueva nadie se ríe del que empieza; todos recordamos nuestro primer día.",
+          "Y el consejo más importante: pide ayuda. Para eso están los coaches. Una sesión de valoración inicial gratuita te ahorra meses de vueltas en círculo y te protege de lesiones absurdas."
+        ]
+      },
+      "sleep-recovery": {
+        "title": "Duerme más, levanta más: la ciencia del descanso",
+        "excerpt": "Entrenas duro pero duermes 5 horas. Te explicamos por qué el sueño es el esteroide legal que estás desperdiciando.",
+        "category": "Recuperación",
+        "content": [
+          "Puedes tener la mejor rutina y la mejor dieta del mundo: si duermes mal, estás dejando la mitad de tus resultados sobre la mesa. El músculo no se construye en el gimnasio, se construye mientras duermes.",
+          "Durante el sueño profundo tu cuerpo libera la mayor parte de la hormona de crecimiento del día, repara el tejido muscular dañado por el entrenamiento y consolida las adaptaciones del sistema nervioso. Dormir menos de 6 horas de forma crónica reduce la síntesis proteica, aumenta el cortisol y desploma la testosterona.",
+          "Los datos asustan: estudios en atletas muestran que dormir 5 horas en lugar de 8 reduce los niveles de testosterona entre un 10 y un 15% en solo una semana. Otro estudio clásico encontró que los deportistas que dormían menos de 8 horas tenían 1.7 veces más riesgo de lesión.",
+          "¿Cómo mejorar tu sueño esta misma noche? Horario fijo (acostarte y levantarte a la misma hora, también el fin de semana), habitación fría y oscura, nada de pantallas 60 minutos antes, y cafeína solo antes de las 14:00. Suena básico porque lo es; lo difícil es cumplirlo.",
+          "Si entrenas de noche en la cueva, prioriza una cena con carbohidratos y proteína, y baja las luces al llegar a casa. Tu sesión de las 21:00 no debería costarte el sueño si gestionas bien la hora siguiente.",
+          "Trata el sueño como un entrenamiento más: prográmalo, protégelo y mídelo. Es gratis, es legal y es más anabólico que cualquier suplemento de la tienda."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Ven a conocer la cueva",
+    "subtitle": "Pásate, escríbenos o llámanos. La primera sesión va por nuestra cuenta.",
+    "formTitle": "Escríbenos",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos tu objetivo…",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "¡Mensaje recibido! Te responderemos en menos de 24 horas.",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "infoTitle": "Información",
+    "address": "Calle del Hierro 24, Polígono Norte",
+    "city": "28000 Madrid, España",
+    "phone": "+34 600 123 456",
+    "emailAddress": "hola@paincave.fit",
+    "hoursTitle": "Horario",
+    "hoursWeek": "Lunes a Viernes: 24 horas",
+    "hoursWeekend": "Sábado y Domingo: 7:00 – 22:00",
+    "hoursNote": "Miembros Beast y Elite: acceso 24/7 todos los días"
+  },
+  "checkout": {
+    "successTitle": "¡Bienvenido a la cueva!",
+    "successText": "Tu pago se ha procesado correctamente. Revisa tu correo: te hemos enviado la confirmación y los pasos para activar tu llave digital.",
+    "successCta": "Volver al inicio",
+    "cancelTitle": "Pago cancelado",
+    "cancelText": "No se ha realizado ningún cargo. Tu plan te espera cuando estés listo — las excusas no levantan pesas.",
+    "cancelCta": "Volver a membresías"
+  },
+  "footer": {
+    "tagline": "El gimnasio para los que van en serio. Hierro, disciplina y comunidad desde 2015.",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "hoursTitle": "Horario",
+    "newsletterTitle": "Únete a la lista",
+    "newsletterText": "Tips de entrenamiento y ofertas exclusivas. Sin spam.",
+    "newsletterPlaceholder": "Tu correo",
+    "newsletterButton": "Suscribirme",
+    "newsletterSuccess": "¡Suscrito! Revisa tu bandeja de entrada.",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "meta": {
+    "home": {
+      "title": "Pain Cave — Sé más fuerte que tus excusas",
+      "description": "Gimnasio de fuerza y acondicionamiento abierto 24/7. Powerlifting, cross training, boxeo y HIIT con entrenadores élite. Tu primera sesión es gratis."
+    },
+    "classes": { "title": "Clases — Pain Cave", "description": "Fuerza, cross training, boxeo, HIIT, spinning y movilidad. Encuentra tu programa en Pain Cave." },
+    "trainers": { "title": "Entrenadores — Pain Cave", "description": "Conoce al equipo de entrenadores élite de Pain Cave: atletas certificados de powerlifting, halterofilia, boxeo y acondicionamiento." },
+    "membership": { "title": "Membresías — Pain Cave", "description": "Planes desde $29/mes sin permanencia. Acceso 24/7, clases ilimitadas y entrenamiento personal. Paga seguro con Stripe." },
+    "blog": { "title": "Blog — Pain Cave", "description": "Entrenamiento, nutrición y mentalidad sin humo. Escrito por los coaches de Pain Cave." },
+    "contact": { "title": "Contacto — Pain Cave", "description": "Visítanos, escríbenos o llámanos. Tu primera sesión en Pain Cave es gratis." }
+  }
+}
