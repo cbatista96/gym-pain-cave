@@ -14,19 +14,19 @@ export default function PageHero({ kicker, title, subtitle }: PageHeroProps) {
         {title}
       </span>
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="slash animate-rise mb-4 text-xs font-bold tracking-[0.3em] text-blood uppercase">
+        <p className="slash animate-slide-left mb-4 text-xs font-bold tracking-[0.3em] text-blood uppercase">
           {kicker}
         </p>
         <h1
-          className="font-display animate-rise text-5xl leading-[0.95] tracking-tight uppercase sm:text-7xl"
+          className="font-display animate-slide-left text-5xl leading-[0.95] tracking-tight uppercase sm:text-7xl"
           style={{ animationDelay: "120ms" }}
         >
           {title}
         </h1>
         {subtitle && (
           <p
-            className="animate-rise mt-5 max-w-2xl text-base text-bone-dim sm:text-lg"
-            style={{ animationDelay: "240ms" }}
+            className="animate-slide-right mt-5 max-w-2xl text-base text-bone-dim sm:text-lg"
+            style={{ animationDelay: "260ms" }}
           >
             {subtitle}
           </p>

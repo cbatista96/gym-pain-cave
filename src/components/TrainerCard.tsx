@@ -13,7 +13,7 @@ export default async function TrainerCard({ trainerKey, index = 0 }: TrainerCard
   const data = TRAINERS[trainerKey];
 
   return (
-    <Reveal delay={index * 80}>
+    <Reveal delay={index * 80} direction={index % 2 === 0 ? "left" : "right"}>
       <article className="group relative overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
         <div className="relative aspect-[3/4] overflow-hidden">
           <Image

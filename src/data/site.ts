@@ -141,6 +141,13 @@ export const POSTS: Record<
 export const HERO_IMAGE =
   "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2400&auto=format&fit=crop";
 
+// Local, optimized loop (Pexels #34708346, "Dark Gym Workout with Modern Equipment").
+// HERO_IMAGE doubles as the poster while the video loads.
+export const HERO_VIDEO = {
+  webm: "/videos/hero.webm",
+  mp4: "/videos/hero.mp4"
+};
+
 export const ABOUT_IMAGE =
   "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1600&auto=format&fit=crop";
 

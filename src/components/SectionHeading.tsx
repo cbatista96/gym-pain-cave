@@ -20,6 +20,7 @@ export default function SectionHeading({
   const centered = align === "center";
   return (
     <Reveal
+      direction={centered ? "up" : "left"}
       className={`mb-12 max-w-3xl sm:mb-16 ${centered ? "mx-auto text-center" : ""}`}
     >
       <p

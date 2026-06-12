@@ -5,6 +5,7 @@ import {
   ABOUT_IMAGE,
   CLASS_KEYS,
   HERO_IMAGE,
+  HERO_VIDEO,
   PLAN_IDS,
   PLANS,
   TRAINER_KEYS
@@ -39,14 +40,19 @@ export default async function HomePage({
     <>
       {/* ============ HERO ============ */}
       <section className="noise relative flex min-h-svh items-center overflow-hidden">
-        <Image
-          src={HERO_IMAGE}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover opacity-40 grayscale"
-        />
+        <video
+          className="absolute inset-0 h-full w-full object-cover opacity-40 grayscale"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster={HERO_IMAGE}
+          aria-hidden="true"
+        >
+          <source src={HERO_VIDEO.webm} type="video/webm" />
+          <source src={HERO_VIDEO.mp4} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-coal/80 via-coal/40 to-coal" />
         {/* giant ghost text */}
         <span
@@ -61,18 +67,18 @@ export default async function HomePage({
             {t("kicker")} · {t("since")}
           </p>
           <h1 className="font-display text-[17vw] leading-[0.88] tracking-tight uppercase sm:text-8xl lg:text-9xl">
-            <span className="animate-rise block" style={{ animationDelay: "100ms" }}>
+            <span className="animate-slide-left block" style={{ animationDelay: "100ms" }}>
               {t("title1")}
             </span>
             <span
-              className="animate-rise text-stroke block"
-              style={{ animationDelay: "220ms" }}
+              className="animate-slide-right text-stroke block"
+              style={{ animationDelay: "240ms" }}
             >
               {t("title2")}
             </span>
             <span
-              className="animate-rise block text-blood"
-              style={{ animationDelay: "340ms" }}
+              className="animate-slide-left block text-blood"
+              style={{ animationDelay: "380ms" }}
             >
               {t("title3")}
             </span>
@@ -136,14 +142,14 @@ export default async function HomePage({
               titleAccent={tAbout("titleAccent")}
               light
             />
-            <Reveal delay={100}>
+            <Reveal delay={100} direction="left">
               <p className="-mt-6 mb-10 max-w-xl leading-relaxed text-smoke">
                 {tAbout("description")}
               </p>
             </Reveal>
             <div className="grid gap-7 sm:grid-cols-2">
               {([1, 2, 3, 4] as const).map((n, i) => (
-                <Reveal key={n} delay={i * 90}>
+                <Reveal key={n} delay={i * 90} direction={i % 2 === 0 ? "left" : "right"}>
                   <div className="border-l-4 border-blood pl-4">
                     <h3 className="font-display text-lg tracking-wide text-coal uppercase">
                       {tAbout(`feature${n}Title`)}
@@ -156,7 +162,7 @@ export default async function HomePage({
               ))}
             </div>
           </div>
-          <Reveal delay={150} className="relative">
+          <Reveal delay={150} direction="right" className="relative">
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
                 src={ABOUT_IMAGE}
@@ -238,7 +244,12 @@ export default async function HomePage({
           />
           <div className="grid gap-8 pt-4 lg:grid-cols-3">
             {PLAN_IDS.map((id, i) => (
-              <Reveal key={id} delay={i * 100} className="h-full">
+              <Reveal
+                key={id}
+                delay={i * 100}
+                direction={i === 0 ? "left" : i === 2 ? "right" : "up"}
+                className="h-full"
+              >
                 <PlanCard planId={id} popular={PLANS[id].popular} index={i} />
               </Reveal>
             ))}
@@ -262,7 +273,11 @@ export default async function HomePage({
           />
           <div className="grid gap-8 md:grid-cols-3">
             {(["t1", "t2", "t3"] as const).map((key, i) => (
-              <Reveal key={key} delay={i * 100}>
+              <Reveal
+                key={key}
+                delay={i * 100}
+                direction={i === 0 ? "left" : i === 2 ? "right" : "up"}
+              >
                 <figure className="relative h-full border-2 border-coal bg-bone p-8 shadow-[8px_8px_0_var(--color-blood)]">
                   <span className="font-display absolute -top-6 left-6 text-7xl text-blood" aria-hidden="true">
                     “

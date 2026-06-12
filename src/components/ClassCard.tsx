@@ -14,7 +14,11 @@ export default async function ClassCard({ classKey, index = 0, detailed = false 
   const data = CLASSES[classKey];
 
   return (
-    <Reveal delay={index * 80} className="group relative">
+    <Reveal
+      delay={index * 80}
+      direction={index % 2 === 0 ? "left" : "right"}
+      className="group relative"
+    >
       <article className="relative flex h-full flex-col overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image

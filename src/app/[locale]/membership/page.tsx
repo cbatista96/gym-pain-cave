@@ -39,7 +39,12 @@ export default async function MembershipPage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 pt-4 lg:grid-cols-3">
             {PLAN_IDS.map((id, i) => (
-              <Reveal key={id} delay={i * 100} className="h-full">
+              <Reveal
+                key={id}
+                delay={i * 100}
+                direction={i === 0 ? "left" : i === 2 ? "right" : "up"}
+                className="h-full"
+              >
                 <PlanCard planId={id} popular={PLANS[id].popular} index={i} />
               </Reveal>
             ))}
@@ -62,7 +67,7 @@ export default async function MembershipPage({
           </Reveal>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
-              <Reveal key={faq.q} delay={i * 70}>
+              <Reveal key={faq.q} delay={i * 70} direction={i % 2 === 0 ? "left" : "right"}>
                 <details className="group border border-smoke bg-coal open:border-blood">
                   <summary className="flex cursor-pointer items-center justify-between gap-4 px-6 py-5 text-sm font-bold tracking-wide uppercase select-none">
                     {faq.q}

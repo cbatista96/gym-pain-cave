@@ -29,14 +29,14 @@ export default async function ContactPage({
 
       <section className="bg-coal py-20 sm:py-24">
         <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 lg:grid-cols-5 lg:px-8">
-          <Reveal className="lg:col-span-3">
+          <Reveal direction="left" className="lg:col-span-3">
             <h2 className="font-display slash mb-8 text-3xl tracking-wide uppercase">
               {t("formTitle")}
             </h2>
             <ContactForm />
           </Reveal>
 
-          <Reveal delay={120} className="lg:col-span-2">
+          <Reveal delay={120} direction="right" className="lg:col-span-2">
             <div className="space-y-10 border border-smoke bg-ash p-8">
               <div>
                 <h2 className="font-display mb-4 text-xl tracking-widest text-blood uppercase">
@@ -81,7 +81,7 @@ export default async function ContactPage({
               <div className="relative aspect-video overflow-hidden border border-smoke">
                 <iframe
                   title={t("infoTitle")}
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=-3.72%2C40.40%2C-3.66%2C40.44&layer=mapnik"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=-80.270%2C25.885%2C-80.230%2C25.915&layer=mapnik&marker=25.9006%2C-80.2503"
                   className="h-full w-full grayscale invert"
                   loading="lazy"
                 />

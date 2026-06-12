@@ -15,7 +15,11 @@ export default async function BlogCard({ slug, index = 0 }: BlogCardProps) {
   const post = POSTS[slug];
 
   return (
-    <Reveal delay={index * 80} className="h-full">
+    <Reveal
+      delay={index * 80}
+      direction={index % 2 === 0 ? "left" : "right"}
+      className="h-full"
+    >
       <article className="group flex h-full flex-col overflow-hidden border border-smoke bg-ash transition-colors duration-300 hover:border-blood">
         <Link href={`/blog/${slug}`} className="relative block aspect-[16/9] overflow-hidden">
           <Image
