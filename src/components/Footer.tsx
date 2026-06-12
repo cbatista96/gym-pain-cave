@@ -21,7 +21,7 @@ export default async function Footer() {
 
   return (
     <footer className="relative border-t-4 border-blood bg-ash">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 text-center sm:px-6 md:grid-cols-2 md:text-left lg:grid-cols-4 lg:px-8">
         <div>
           <Link href="/" aria-label={tNav("home")} className="inline-block">
             {/* mix-blend-screen drops the artwork's black background into the dark footer */}

@@ -147,7 +147,9 @@ export const SOCIALS = [
   { key: "facebook", label: "Facebook", href: "https://facebook.com/paincavegym" },
   { key: "instagram", label: "Instagram", href: "https://instagram.com/paincavegym" },
   { key: "tiktok", label: "TikTok", href: "https://tiktok.com/@paincavegym" },
-  { key: "x", label: "X", href: "https://x.com/paincavegym" }
+  { key: "x", label: "X", href: "https://x.com/paincavegym" },
+  { key: "youtube", label: "YouTube", href: "https://youtube.com/@paincavegym" },
+  { key: "telegram", label: "Telegram", href: "https://t.me/paincavegym" }
 ] as const;
 
 export const POST_SLUGS = [

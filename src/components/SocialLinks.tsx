@@ -16,6 +16,12 @@ const ICONS: Record<(typeof SOCIALS)[number]["key"], React.ReactNode> = {
   ),
   x: (
     <path d="M4.5 4.5h4.6l4 5.4 4.6-5.4h2.9l-6.2 7.2 6.6 8.8h-4.6l-4.3-5.9-5 5.9H4.2l6.6-7.7-6.3-8.3Z" />
+  ),
+  youtube: (
+    <path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8ZM10 15V9l5.2 3-5.2 3Z" />
+  ),
+  telegram: (
+    <path d="M21.9 4.6 19 19.3c-.2 1-.8 1.25-1.6.78l-4.5-3.3-2.17 2.1c-.24.24-.44.44-.9.44l.32-4.57L18.6 7.3c.36-.32-.08-.5-.56-.18L7.75 13.5l-4.43-1.38c-.96-.3-.98-.96.2-1.42L20.55 3.2c.8-.3 1.5.18 1.35 1.4Z" />
   )
 };
 
@@ -23,7 +29,7 @@ export default function SocialLinks({ title }: { title: string }) {
   return (
     <div>
       <p className="mb-3 text-xs font-bold tracking-[0.25em] text-bone-dim uppercase">{title}</p>
-      <ul className="flex gap-3">
+      <ul className="flex flex-wrap justify-center gap-3 md:justify-start">
         {SOCIALS.map(({ key, label, href }) => (
           <li key={key}>
             <a
