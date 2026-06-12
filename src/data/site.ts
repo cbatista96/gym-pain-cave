@@ -96,6 +96,60 @@ export const PLANS: Record<
   elite: { amountCents: 9900, popular: false, stripePriceEnv: "STRIPE_PRICE_ELITE" }
 };
 
+export const PROGRAM_KEYS = [
+  "recomposition",
+  "slim",
+  "musculacos",
+  "muscle",
+  "shape",
+  "zero",
+  "prenatal",
+  "glutes",
+  "abs",
+  "fuertacombat",
+  "crosshouse",
+  "fuertadance",
+  "express",
+  "yoga"
+] as const;
+export type ProgramKey = (typeof PROGRAM_KEYS)[number];
+
+export type ProgramLevel = "beginner" | "all" | "intermediate" | "advanced";
+
+export const PROGRAMS: Record<
+  ProgramKey,
+  {
+    group: "plan" | "class";
+    weeks?: number;
+    sessionsPerWeek?: number;
+    minutes?: number;
+    level: ProgramLevel;
+    intensity: 1 | 2 | 3 | 4 | 5;
+  }
+> = {
+  recomposition: { group: "plan", weeks: 12, sessionsPerWeek: 4, level: "intermediate", intensity: 4 },
+  slim: { group: "plan", weeks: 8, sessionsPerWeek: 3, level: "all", intensity: 3 },
+  musculacos: { group: "plan", weeks: 12, sessionsPerWeek: 5, level: "advanced", intensity: 5 },
+  muscle: { group: "plan", weeks: 10, sessionsPerWeek: 4, level: "intermediate", intensity: 4 },
+  shape: { group: "plan", weeks: 8, sessionsPerWeek: 3, level: "all", intensity: 3 },
+  zero: { group: "plan", weeks: 6, sessionsPerWeek: 3, level: "beginner", intensity: 2 },
+  prenatal: { group: "plan", sessionsPerWeek: 2, level: "all", intensity: 1 },
+  glutes: { group: "plan", weeks: 8, sessionsPerWeek: 3, level: "all", intensity: 3 },
+  abs: { group: "class", minutes: 20, level: "all", intensity: 3 },
+  fuertacombat: { group: "class", minutes: 50, level: "all", intensity: 5 },
+  crosshouse: { group: "class", minutes: 60, level: "intermediate", intensity: 5 },
+  fuertadance: { group: "class", minutes: 50, level: "all", intensity: 3 },
+  express: { group: "class", minutes: 30, level: "all", intensity: 4 },
+  yoga: { group: "class", minutes: 60, level: "all", intensity: 2 }
+};
+
+export const SOCIALS = [
+  { key: "facebook", label: "Facebook", href: "https://facebook.com/paincavegym" },
+  { key: "instagram", label: "Instagram", href: "https://instagram.com/paincavegym" },
+  { key: "tiktok", label: "TikTok", href: "https://tiktok.com/@paincavegym" },
+  { key: "x", label: "X", href: "https://x.com/paincavegym" }
+] as const;
+
 export const POST_SLUGS = [
   "progressive-overload",
   "protein-myths",

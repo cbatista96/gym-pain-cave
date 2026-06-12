@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { POSTS, POST_SLUGS, type PostSlug } from "@/data/site";
 import BlogCard from "@/components/BlogCard";
 import Reveal from "@/components/Reveal";
+import Spotlight from "@/components/Spotlight";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -54,15 +55,17 @@ export default async function BlogPostPage({
       <article>
         {/* Post hero */}
         <header className="noise relative overflow-hidden pt-32 pb-16 sm:pt-40 sm:pb-20">
-          <Image
-            src={post.image}
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover opacity-25 grayscale"
-            aria-hidden="true"
-          />
+          <Spotlight className="absolute inset-0">
+            <Image
+              src={post.image}
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="spotlight-color object-cover opacity-25 grayscale transition-all duration-700"
+              aria-hidden="true"
+            />
+          </Spotlight>
           <div className="absolute inset-0 bg-gradient-to-b from-coal/70 via-coal/50 to-coal" />
           <div className="relative mx-auto max-w-3xl px-4 sm:px-6">
             <Link

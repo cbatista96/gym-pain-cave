@@ -14,6 +14,7 @@
   "nav": {
     "home": "Home",
     "classes": "Classes",
+    "plans": "Plans",
     "trainers": "Trainers",
     "membership": "Membership",
     "blog": "Blog",
@@ -110,6 +111,85 @@
         "tagline": "Train hard. Recover harder.",
         "description": "Active stretching, foam rolling and mobility work so your body can survive years of war in the cave.",
         "schedule": "Tue · Thu · Sun — 9:00, 20:30"
+      }
+    }
+  },
+  "programs": {
+    "kicker": "Plans",
+    "title": "A plan for every goal",
+    "subtitle": "Fourteen programs designed by our coaches. Tell us where you want to go and we'll draw the map.",
+    "pageTitle": "Training plans",
+    "pageSubtitle": "Every plan includes full programming, tracking in the app and adjustments from your coach. Special classes are included in Beast and Elite plans.",
+    "plansGroup": "Plans by goal",
+    "classesGroup": "Special classes",
+    "weeks": "{count} weeks",
+    "perWeek": "{count} sess./week",
+    "minutes": "{count} min",
+    "ongoing": "Ongoing program",
+    "intensity": "Intensity",
+    "cta": "Ask about this plan",
+    "levels": {
+      "beginner": "Beginner",
+      "all": "All levels",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "items": {
+      "recomposition": {
+        "name": "Body Recomposition Plan",
+        "description": "Lose fat and build muscle at the same time: programmed strength work, strategic cardio and a nutrition protocol adjusted every two weeks."
+      },
+      "slim": {
+        "name": "Weight Loss Plan",
+        "description": "Smart caloric deficit, lifting to protect your muscle and cardio that doesn't bore you. Lose weight without starving or living on the treadmill."
+      },
+      "musculacos": {
+        "name": "Musculacos Plan",
+        "description": "Unfiltered hypertrophy for those with a base already built: high volume, intensity techniques and serious eating. You come here to grow."
+      },
+      "muscle": {
+        "name": "Muscle Gain Plan",
+        "description": "Structured hypertrophy with weekly progression: the big lifts as your backbone and accessories to attack your weak points."
+      },
+      "shape": {
+        "name": "Get in Shape Plan",
+        "description": "The all-round plan to get your fitness back: strength, endurance and mobility in balanced sessions that fit your schedule."
+      },
+      "zero": {
+        "name": "From Zero Plan",
+        "description": "Never set foot in a gym? Perfect. Technique from day one, light loads and a coach watching over every session."
+      },
+      "prenatal": {
+        "name": "Prenatal Plan",
+        "description": "Safe training through pregnancy, designed with physiotherapists: adapted strength, pelvic floor and mobility by trimester."
+      },
+      "abs": {
+        "name": "Abs Routine",
+        "description": "Twenty minutes of core you can stack onto any plan: anti-rotation, stability and dynamic work for a center of steel."
+      },
+      "glutes": {
+        "name": "Glutes Plan",
+        "description": "Lower-body specialization with glute emphasis: hip thrusts, squat variations and 3x weekly frequency for visible results."
+      },
+      "fuertacombat": {
+        "name": "Fuertacombat",
+        "description": "Combat cardio set to music: punches, knees and kicks in the air burning up to 800 calories per session. No contact, no mercy."
+      },
+      "crosshouse": {
+        "name": "Cross-House",
+        "description": "Our functional station circuit: lift, push, drag and run. A new challenge every week — zero repeated routines."
+      },
+      "fuertadance": {
+        "name": "Fuertadance",
+        "description": "Dance + cardio + attitude. Simple choreography to pulse-raising music: the class where sweating feels like a party."
+      },
+      "express": {
+        "name": "Express",
+        "description": "Complete 30-minute sessions for impossible days: condensed strength or HIIT. Get in, train, get on with your life."
+      },
+      "yoga": {
+        "name": "Yoga",
+        "description": "Flexible strength: vinyasa and mobility to gain range, release tension and balance all those hours of iron."
       }
     }
   },
@@ -339,6 +419,7 @@
     "newsletterPlaceholder": "Your email",
     "newsletterButton": "Subscribe",
     "newsletterSuccess": "Subscribed! Check your inbox.",
+    "followTitle": "Follow us",
     "rights": "All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms"
@@ -349,6 +430,7 @@
       "description": "Strength and conditioning gym open 24/7. Powerlifting, cross training, boxing and HIIT with elite coaches. Your first session is free."
     },
     "classes": { "title": "Classes — Pain Cave", "description": "Strength, cross training, boxing, HIIT, spinning and mobility. Find your program at Pain Cave." },
+    "plans": { "title": "Training Plans — Pain Cave", "description": "14 goal-driven plans: body recomposition, weight loss, muscle gain, glutes, prenatal plus special classes like Fuertacombat and Cross-House." },
     "trainers": { "title": "Trainers — Pain Cave", "description": "Meet Pain Cave's elite coaching team: certified athletes in powerlifting, weightlifting, boxing and conditioning." },
     "membership": { "title": "Membership — Pain Cave", "description": "Plans from $29/mo with no contract. 24/7 access, unlimited classes and personal training. Pay securely with Stripe." },
     "blog": { "title": "Blog — Pain Cave", "description": "Training, nutrition and mindset with no fluff. Written by Pain Cave coaches." },

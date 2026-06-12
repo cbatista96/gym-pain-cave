@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import Logo from "./Logo";
+import LogoBadge from "./LogoBadge";
 import NewsletterForm from "./NewsletterForm";
+import SocialLinks from "./SocialLinks";
 
 export default async function Footer() {
   const t = await getTranslations("footer");
@@ -11,6 +12,7 @@ export default async function Footer() {
 
   const navItems = [
     { key: "classes", href: "/classes" },
+    { key: "plans", href: "/plans" },
     { key: "trainers", href: "/trainers" },
     { key: "membership", href: "/membership" },
     { key: "blog", href: "/blog" },
@@ -21,13 +23,13 @@ export default async function Footer() {
     <footer className="relative border-t-4 border-blood bg-ash">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div>
-          <Link href="/" className="text-bone" aria-label={tNav("home")}>
-            <Logo />
+          <Link href="/" aria-label={tNav("home")} className="inline-block text-bone transition-colors hover:text-blood">
+            <LogoBadge className="w-44" slogan={tCommon("sloganShort")} />
           </Link>
-          <p className="mt-5 text-sm leading-relaxed text-bone-dim">{t("tagline")}</p>
-          <p className="font-display mt-5 text-lg tracking-wide text-blood uppercase">
-            {tCommon("sloganShort")}
-          </p>
+          <p className="mt-6 text-sm leading-relaxed text-bone-dim">{t("tagline")}</p>
+          <div className="mt-6">
+            <SocialLinks title={t("followTitle")} />
+          </div>
         </div>
 
         <nav aria-label={t("navTitle")}>

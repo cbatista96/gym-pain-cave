@@ -18,6 +18,7 @@ import PlanCard from "@/components/PlanCard";
 import StatCounter from "@/components/StatCounter";
 import CtaBanner from "@/components/CtaBanner";
 import Reveal from "@/components/Reveal";
+import Spotlight from "@/components/Spotlight";
 
 export default async function HomePage({
   params
@@ -40,19 +41,21 @@ export default async function HomePage({
     <>
       {/* ============ HERO ============ */}
       <section className="noise relative flex min-h-svh items-center overflow-hidden">
-        <video
-          className="absolute inset-0 h-full w-full object-cover opacity-40 grayscale"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster={HERO_IMAGE}
-          aria-hidden="true"
-        >
-          <source src={HERO_VIDEO.webm} type="video/webm" />
-          <source src={HERO_VIDEO.mp4} type="video/mp4" />
-        </video>
+        <Spotlight className="absolute inset-0">
+          <video
+            className="spotlight-color h-full w-full object-cover opacity-40 grayscale transition-all duration-700"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster={HERO_IMAGE}
+            aria-hidden="true"
+          >
+            <source src={HERO_VIDEO.webm} type="video/webm" />
+            <source src={HERO_VIDEO.mp4} type="video/mp4" />
+          </video>
+        </Spotlight>
         <div className="absolute inset-0 bg-gradient-to-b from-coal/80 via-coal/40 to-coal" />
         {/* giant ghost text */}
         <span
